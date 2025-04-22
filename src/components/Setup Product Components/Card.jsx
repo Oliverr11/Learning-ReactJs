@@ -1,12 +1,13 @@
 import React from "react";
 import "./card.css";
 const Card = (props) => {
+  const { image, brand, text, price } = props;
   return (
     <article>
-      <img src={props.image} alt="Shoes" />
-      <h3>{props.name}</h3>
-      <p>{props.text}</p>
-      <span>{props.price}$</span>
+      <img src={image} alt="Shoes" />
+      <h3>{brand}</h3>
+      <p>{text}</p>
+      <span>{price}$</span>
     </article>
   );
 };

@@ -12,7 +12,6 @@ const Product = () => {
     },
     {
       id: 2,
-
       image:
         "https://images.pexels.com/photos/1032110/pexels-photo-1032110.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       brand: "Adidas",
@@ -21,7 +20,6 @@ const Product = () => {
     },
     {
       id: 3,
-
       image:
         "https://images.pexels.com/photos/27503498/pexels-photo-27503498/free-photo-of-zapatillas-negras.png?auto=compress&cs=tinysrgb&w=600&lazy=load",
       brand: "Adidas",
@@ -29,18 +27,11 @@ const Product = () => {
       price: 25,
     },
   ];
+
   return (
     <div>
       {shoes.map((s) => {
-        return (
-          <Card
-            key={s.id}
-            image={s.image}
-            name={s.brand}
-            text={s.text}
-            price={s.price}
-          />
-        );
+        return <Card key={s.id} {...s} />;
       })}
     </div>
   );
