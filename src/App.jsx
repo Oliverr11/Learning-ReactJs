@@ -1,10 +1,10 @@
 import "./App.css";
-import UseState from "./components/UseState Hook/UseState";
+import GetInputValue from "./components/UseState With Objects/Exercise/GetInputValue";
 
 const App = () => {
   return (
     <div className="container">
-      <UseState />
+      <GetInputValue />
     </div>
   );
 };

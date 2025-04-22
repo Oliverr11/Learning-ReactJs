@@ -1,0 +1,14 @@
+input {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 10px;
+}
+h1 {
+  text-wrap: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 550px;
+  overflow-wrap: break-word;
+}
