@@ -1,10 +1,10 @@
 import "./App.css";
-import Product from "./components/Setup Product Components/Product";
+import BasicEvent from "./components/BasicEvent/BasicEvent";
 
 const App = () => {
   return (
     <div className="container">
-      <Product />
+      <BasicEvent />
     </div>
   );
 };
