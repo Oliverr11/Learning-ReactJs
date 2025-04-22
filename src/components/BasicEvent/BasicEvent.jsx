@@ -9,7 +9,7 @@ const BasicEvent = () => {
   };
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    console.log("You're submitting " );
+    console.log("You're submitting ");
   };
   return (
     <>

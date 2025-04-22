@@ -1,10 +1,10 @@
 import "./App.css";
-import BasicEvent from "./components/BasicEvent/BasicEvent";
+import Users from "./components/Get Props From Child/Users";
 
 const App = () => {
   return (
     <div className="container">
-      <BasicEvent />
+      <Users />
     </div>
   );
 };
