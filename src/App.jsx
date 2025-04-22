@@ -1,10 +1,10 @@
 import "./App.css";
-import { User } from "./components/ListComponents/User";
+import Product from "./components/Setup Product Components/Product";
 
 const App = () => {
   return (
     <div className="container">
-      <User />
+      <Product />
     </div>
   );
 };
