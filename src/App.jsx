@@ -1,10 +1,10 @@
 import "./App.css";
-import Users from "./components/Get Props From Child/Users";
+import UseState from "./components/UseState Hook/UseState";
 
 const App = () => {
   return (
     <div className="container">
-      <Users />
+      <UseState />
     </div>
   );
 };
